@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "custom";
 @import "jquery.fileupload";
 @import "jquery.fileupload-ui";
 
@@ -22,6 +23,10 @@
 
 #content {
   margin-top: 50px;
+}
+
+#notice {
+  color: green;
 }
 
  /* User sign up, sign and edit forms. */

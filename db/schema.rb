@@ -54,6 +54,7 @@ ActiveRecord::Schema.define(version: 20151116143724) do
     t.string   "last_name",              default: ""
     t.date     "birthdate"
     t.string   "phone",                  default: ""
+    t.string   "avatar"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

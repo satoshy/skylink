@@ -6,5 +6,6 @@ class AddNameToUsers < ActiveRecord::Migration
     add_column :users, :last_name,  :string, default: ""
     add_column :users, :birthdate,  :date
     add_column :users, :phone,      :string, default: ""
+    add_column :users, :avatar,     :string
   end
 end
