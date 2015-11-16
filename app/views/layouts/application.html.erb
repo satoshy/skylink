@@ -9,16 +9,12 @@
 <body>
 
   <%= render 'layouts/header' %>
-  
-  <div id="container">
-    <div id="navbar"></div>
 
-    <div id="content">
-      <% if notice %>
-        <p class="alert alert-success"><%= notice %></p>
-      <% end %>
-      <%= yield %>
-    </div>
+  <div id="container">
+    <% if notice %>
+      <p class="alert alert-success"><%= notice %></p>
+    <% end %>
+    <%= yield %>
   </div>
 </body>
 </html>

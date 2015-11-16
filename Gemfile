@@ -17,6 +17,7 @@ gem 'rails_admin'
 gem 'devise'
 gem 'cancancan'
 gem 'rolify'
+gem "figaro"
 
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem "jquery-fileupload-rails"

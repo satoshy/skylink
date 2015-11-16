@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "custom";
+@import "welcome";
 @import "jquery.fileupload";
 @import "jquery.fileupload-ui";
 
@@ -19,15 +20,6 @@
 #logo:hover {
   color: #fff;
   text-decoration: none;
-}
-
-#content {
-  margin-left:  20%;
-}
-
-#navbar {
-  float: left;
-  width: 20%;
 }
 
 #container {
