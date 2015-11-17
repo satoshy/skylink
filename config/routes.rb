@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :plans
   resources :subscriptions
   resources :categories
   resources :films
